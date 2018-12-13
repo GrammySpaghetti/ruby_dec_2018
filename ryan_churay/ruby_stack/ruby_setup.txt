@@ -30,7 +30,7 @@ gem 'rails-footnotes', '>= 4.0.0', '<5'
 rails generate rails_footnotes:install - after bundle install
 
 config/environments/development.rb
-config.reload_classes_only_on_change = False
+config.reload_classes_only_on_change = false
 
 cd {project name}
 rails generate model {Model Name} {columns ie. first_name:string last_name:string password:string email:string age:integer} - make sure model name is CAPITALIZED and SINGULAR; useful datatypes[:binary, :boolean, :date, :datetime, :decimal, :float, :integer, :primary_key(Active Record will create this for us), :references, :string, :text, :time, :timestamp]
